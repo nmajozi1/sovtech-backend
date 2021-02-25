@@ -1,4 +1,5 @@
 # sovtech-backend
 Sovtech assesment
-use npm i to pull all the dependencies
-run command npm run server to run the server
+run: npm i
+run:  tsc on your cli
+run: npm run server
