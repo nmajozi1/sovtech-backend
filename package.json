@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Sovtech GraphQL backend API Layer for the technical test",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.ts",
+    "server": "node dist/server.js"
+  },
+  "author": "Ntokozo Majozi",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.21.0",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.1.5"
+  }
+}
